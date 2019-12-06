@@ -1923,6 +1923,7 @@ input, select, textarea {
 
 /* Section/Article */
 
+	
 	section.special, article.special {
 		text-align: center;
 	}
@@ -1954,7 +1955,13 @@ input, select, textarea {
 
 	header.major {
 		text-align: center;
+		display: flex;
 	}
+		header .headImg {
+			width: 210px;
+			margin:2% 0 0 0;
+			border-radius: 50%;
+		}
 
 		header.major h1, header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			position: relative;
@@ -2284,7 +2291,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 15px 0 2em 0;
 		padding-left: 1em;
 	}
 
